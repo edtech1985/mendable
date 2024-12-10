@@ -11,39 +11,42 @@ import { Provider } from "./components/ui/provider"
 function App() {
   return (
     <Provider>
-      <Box bg="gray.50" minH="100vh" p={4}>
+      <Box bg="black" minH="100vh" p={4}>
         {/* Header */}
         <Box bg="blue.500" color="white" py={6} px={4} textAlign="center">
           <Heading as="h1" size="lg">
-            Bem-vindo(a)!
+            Welcome!
           </Heading>
           <Text fontSize="md" mt={2}>
-            Meu nome é Edson, e este é um pequeno exemplo para demonstrar
-            minhas habilidades com React, Chakra UI, e o botão flutuante da
-            Mendable.
+            This is a small example to demonstrate the Mendable floating button.
           </Text>
         </Box>
 
-        {/* Conteúdo principal */}
+        {/* Main content */}
         <VStack mt={10} align="center">
           <Heading as="h2" size="md">
-            Sobre mim
+            About me
           </Heading>
           <Text textAlign="center" maxW="600px">
-            Sou um desenvolvedor fullstack apaixonado por criar interfaces
-            agradáveis e responsivas. Tenho experiência com React, TypeScript,
-            Node.js, e ferramentas como Chakra UI e Material UI.
+            I am a fullstack developer passionate about creating pleasant and
+            responsive interfaces. I have experience with React, TypeScript,
+            Node.js, and tools like Chakra UI and Material UI.
           </Text>
           <Text textAlign="center" maxW="600px">
-            Este projeto é uma demonstração do uso do botão flutuante da
-            Mendable. Caso tenha dúvidas, sinta-se à vontade para explorar!
+            Additionally, I am an artificial intelligence enthusiast with a
+            strong interest in exploring and learning more about this
+            fascinating field.
+          </Text>
+          <Text textAlign="center" maxW="600px">
+            This project is a demonstration of the usage of the Mendable
+            floating button. If you have any questions, feel free to explore!
           </Text>
           <Link href="https://mendable.ai" color="blue.500" fontWeight="bold">
-            Saiba mais sobre Mendable
+            Learn more about Mendable
           </Link>
         </VStack>
 
-        {/* Botão flutuante */}
+        {/* Floating button */}
         <MendableFloatingButton
           anon_key={"65c0f0b2-f93f-4e98-8cff-4abb2a974924"}
         />
