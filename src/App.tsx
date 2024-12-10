@@ -52,6 +52,7 @@ function App() {
           welcomeMessage="What you would like to know about me?"
           anon_key={"65c0f0b2-f93f-4e98-8cff-4abb2a974924"}
           language="english"
+          dialogPlaceholder="Previous 3 jobs"
         />
       </Box>
     </Provider>
