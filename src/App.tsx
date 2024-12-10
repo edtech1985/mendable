@@ -51,6 +51,7 @@ function App() {
           popupText="Hey, ask me a question"
           welcomeMessage="What you would like to know about me?"
           anon_key={"65c0f0b2-f93f-4e98-8cff-4abb2a974924"}
+          language="english"
         />
       </Box>
     </Provider>
